@@ -53,7 +53,7 @@ legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_
 
 # plot 4
 
-plot(df$time_stamp, df$global_reactive_power, xlab="datetime",  ylab="Global_rective_power (kilowatts)", type="l")
+plot(df$time_stamp, df$global_reactive_power, xlab="datetime",  ylab="Global_reactive_power", type="l")
 
 
 
