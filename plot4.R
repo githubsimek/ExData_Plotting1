@@ -47,7 +47,7 @@ plot(df$time_stamp, df$sub_meter3, type="l", col="blue", axes=FALSE, ylim=c(1,30
 
 # Add legend
 
-legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
+legend("topright", legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), fill=0, bty="n",
        lty=c(1,1,1), # gives the legend lines
        lwd=c(2.5,2.5,2.5), col=c("black", "red", "blue") )  # gives the color
 
